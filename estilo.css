@@ -1,0 +1,37 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+
+.logo > img{
+	width: 140px;
+	margin: 5px;
+	margin-left: 15px;
+}
+
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+nav{
+	display: flex;
+	flex-direction: row;
+
+	align-items: center;
+}
+nav > div{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+nav > div > a {
+	text-decoration: none;
+	font-size: larger;
+	color: orange;
+}
+nav > div > a:hover{ 
+	color: gray;
+}
+
